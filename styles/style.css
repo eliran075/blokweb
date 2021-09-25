@@ -1,5 +1,79 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+nav img {
+  display: block;
+  padding: 0.8em 0 0.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+
+}
+
+.topmessage {
+  margin: 0;
+  display: flex;
+  justify-content: center
+}
+
+.topmessage img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 8%;
+  height: 8%;
+}
+
+.topmessage p {
+  padding-left: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  margin: auto 0 auto 0;
+}
+
+.topmessage p:first-child {
+  font-weight: bold;
+}
+
+.products {
+  width: 100%;
+}
+
+.categorietitel {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.advice {
+  width: 100%;
+}
